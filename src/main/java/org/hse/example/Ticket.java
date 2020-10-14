@@ -5,6 +5,8 @@ import java.util.Arrays;
 /**
  * Класс для моделирования билета
  */
+
+
 public class Ticket implements MealTicket {
     //todo реализовать класс для билета из 4-х цифр. Лучше интерфейс
     private int[] ticket;
