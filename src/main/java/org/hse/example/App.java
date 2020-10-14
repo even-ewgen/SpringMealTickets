@@ -23,7 +23,7 @@ public class App {
      */
     public static void main(String... args) {
         ApplicationContext context = new AnnotationConfigApplicationContext("org.hse.example");
-        Supplier<Long> mealTicketsCounter = context.getBean("mealTicketsCounter", Supplier.class);
+        Supplier<Long> mealTicketsCounter = context.getBean("evenMealTicketsCounter", Supplier.class);
 
         System.out.println("Счастливых билетов " + mealTicketsCounter.get());
     }

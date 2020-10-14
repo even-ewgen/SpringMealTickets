@@ -34,6 +34,12 @@ public class Ticket implements MealTicket {
     }
 
     @Override
+    public boolean getEven() {
+        return ticket[ticket.length-1]%2 == 0;
+    }
+
+
+    @Override
     public String toString() {
         return "Ticket{" + Arrays.toString(ticket) + "}";
     }

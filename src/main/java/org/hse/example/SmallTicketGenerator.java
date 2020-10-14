@@ -10,7 +10,6 @@ import java.util.Iterator;
  * Генератор билетов из 4-х цифр. Реализует {@link java.util.Iterator}
  */
 @Service("smallTicketsGenerator")
-@Primary
 public class SmallTicketGenerator implements Iterator<MealTicket> {
     private long current = 0;
 

@@ -11,4 +11,6 @@ public interface MealTicket {
      */
     boolean isMealTicket();
 
+    boolean getEven();
+
 }
